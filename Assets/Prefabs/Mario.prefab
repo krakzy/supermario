@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 4424075064031767271}
   - component: {fileID: 1746196447673534888}
   - component: {fileID: 7569148337425003925}
+  - component: {fileID: -6402033961385636859}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -256,3 +257,15 @@ MonoBehaviour:
   moveSpeed: 8
   maxJumpHeight: 5
   maxJumpTime: 1
+--- !u!114 &-6402033961385636859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328642871144765503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e97b03513787d4485dc0646a3d458a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
