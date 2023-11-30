@@ -9091,9 +9091,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2861335458462844633, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4463757214620188081, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
       propertyPath: m_Name
       value: Mario
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463757214620188081, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4463757214620188081, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
       propertyPath: m_TagString
@@ -9143,6 +9151,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8221906930122157094, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221906930122157094, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221906930122157094, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217204666893943993, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eda9c5921a6bb2b4eb8e497d1933c09e, type: 3}
 --- !u!1 &2430662836695274876
@@ -9155,7 +9179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7546789257387953384}
   - component: {fileID: 6174461645779954203}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9189,7 +9213,7 @@ GameObject:
   - component: {fileID: 5857533833803996364}
   - component: {fileID: 8364564682335305603}
   - component: {fileID: 8364564682335305604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mario
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -9382,6 +9406,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
+  maxJumpHeight: 5
+  maxJumpTime: 1
 --- !u!1 &8783397266608494364
 GameObject:
   m_ObjectHideFlags: 0
@@ -9392,7 +9418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2757055224078589180}
   - component: {fileID: 5329872597360956213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
