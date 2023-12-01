@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4299091367526574179}
   - component: {fileID: 3738435711971423429}
   - component: {fileID: 7165008759133931583}
+  - component: {fileID: 4788956740970289216}
   m_Layer: 7
   m_Name: Goomba
   m_TagString: Untagged
@@ -140,3 +141,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 14e7f8c96c0e91643b1810eaf5a8d81d, type: 3}
   - {fileID: 21300000, guid: 03cf803bd0329ba449701947c071d28d, type: 3}
   framerate: 0.25
+--- !u!114 &4788956740970289216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4021237603027043144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8257c704501a0d74a8ff9f17e99c1d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  direction: {x: -1, y: 0}
