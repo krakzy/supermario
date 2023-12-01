@@ -48,4 +48,33 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene($"{world}-{stage}");
     }
+
+    public void NextLevel()
+    {
+        LoadLevel(world, stage + 1);
+    }
+
+    public void ResetLevel(float delay)
+    {
+        Invoke(nameof(ResetLevel), delay);
+    }
+
+    public void ResetLevel()
+    {
+        lives--;
+
+        if(lives > 0)
+        {
+            LoadLevel(world, stage);
+        }
+        else
+        {
+            GameOver();
+        }
+    }
+
+    public void GameOver()
+    {
+        NewGame();
+    }
 }
