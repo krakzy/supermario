@@ -12,8 +12,11 @@ GameObject:
   - component: {fileID: 9206072290205465994}
   - component: {fileID: 1403882999839891344}
   - component: {fileID: 2039099104023467258}
+  - component: {fileID: 7534384467344159390}
+  - component: {fileID: 6527194180997759676}
   - component: {fileID: 1357797701078648325}
   - component: {fileID: 5710149880416050953}
+  - component: {fileID: -2457006967618678366}
   m_Layer: 7
   m_Name: Koopa
   m_TagString: Untagged
@@ -125,6 +128,45 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.25}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!61 &7534384467344159390
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633528421185365}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.25}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.5}
+    newSize: {x: 1, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.25, y: 1.25}
+  m_EdgeRadius: 0
+--- !u!114 &6527194180997759676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633528421185365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd44b0c7dd3943b4eb4f47240c4b067a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shellSprite: {fileID: 21300000, guid: 26387672be4d6e04a9a33b6e925b80cb, type: 3}
 --- !u!114 &1357797701078648325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,3 +197,17 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 77a3ab5e98f12374f9e733f16a0d3c61, type: 3}
   - {fileID: 21300000, guid: c975deb8e706a8942bd46a5c0ada1caf, type: 3}
   framerate: 0.25
+--- !u!114 &-2457006967618678366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369633528421185365}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eddad56e61217e5439151fe24a4ed400, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 9206072290205465994}
+  deadSprite: {fileID: 0}
